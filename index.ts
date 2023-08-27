@@ -168,19 +168,15 @@ console.log(
 
 // 17. Get doctor info
 
-console.log(
-  `doctor1.getDoctorInfo(): ${JSON.stringify(doctor1.getDoctorInfo())}`
-);
+console.log(`doctor1.getDoctorInfo(): ${JSON.stringify(doctor1.getInfo())}`);
 
 // 18. Get appointment info
 
-console.log(
-  `appointment1.getAppointmentInfo(): ${appointment1.getAppointmentInfo()}`
-);
+console.log(`appointment1.getAppointmentInfo(): ${appointment1.getInfo()}`);
 
 // 19. Get patient id
 
-console.log(`patient1.getPatientId(): ${patient1.getPatientId()}`);
+console.log(`patient1.getPatientId(): ${patient1.getInfo()}`);
 
 // 20. Get hospital name
 
