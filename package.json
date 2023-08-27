@@ -1,0 +1,14 @@
+{
+  "name": "oop-2",
+  "version": "1.0.0",
+  "description": "Solution to the second OOP excercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
